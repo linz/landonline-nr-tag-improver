@@ -1,6 +1,6 @@
 {
   "schemaType": "NERDPACK",
   "id": "94b0f70e-4738-4e99-acb3-641f94b6876f",
-  "displayName": "TEST Tag Improver STEP",
+  "displayName": "Tag Improver",
   "description": "Achieve tagging best practices to get the most from New Relic One. Define tagging policy, report on tag compliance, and bulk-edit tags in the NR One UI."
 }
