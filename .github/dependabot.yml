@@ -6,6 +6,10 @@ updates:
     schedule:
       interval: daily
     ignore:
-      - dependency-name: ad-m/github-push-action
-      - dependency-name: ataylorme/eslint-annotate-action
-      - dependency-name: benc-uk/workflow-dispatch
+      - unverified_script_exec: linz/landonline-nr-tag-improver
+      - unverified_script_exec: linz/landonline-nr-tag-improver
+      - unverified_script_exec: linz/landonline-nr-tag-improver
+      - injection: linz/landonline-nr-tag-improver
+      - github_action_from_unverified_creator_used: ad-m/github-push-action
+      - github_action_from_unverified_creator_used: ataylorme/eslint-annotate-action
+      - github_action_from_unverified_creator_used: benc-uk/workflow-dispatch
