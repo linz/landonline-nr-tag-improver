@@ -7,7 +7,6 @@ updates:
       interval: daily
     ignore:
       - dependency-name: ad-m/github-push-action
-      - dependency-name: ataylorme/eslint-annotate-action
       - dependency-name: benc-uk/workflow-dispatch
 
   - package-ecosystem: npm
