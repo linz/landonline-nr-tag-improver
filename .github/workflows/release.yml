@@ -95,10 +95,9 @@ jobs:
 
       - name: Push Commit
         if: steps.generate-notices.outputs.commit == 'true'
-        uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6 # v0.6.0
-        with:
-          github_token: ${{ github.token }}
-          branch: main
+        run: |
+            git push origin HEAD:main
+            echo "Pushed commit to main branch with updated third-party notices"
 
   job-generate-release:
     runs-on: ubuntu-latest
