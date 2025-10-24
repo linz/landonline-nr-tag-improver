@@ -5,11 +5,12 @@ updates:
     directory: '/'
     schedule:
       interval: daily
-    ignore:
-      - dependency-name: ad-m/github-push-action
-
+    cooldown:
+      default-days: 15
   - package-ecosystem: npm
     directory: '/'
     schedule:
       interval: daily
     open-pull-requests-limit: 3
+    cooldown:
+      default-days: 15
