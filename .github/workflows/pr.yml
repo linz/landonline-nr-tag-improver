@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
       - name: Setup node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        uses: linz/action-setup-node@623b1541d0e2f665d5378ad2e475e3c7335ba944 # v1.0.0
         with:
           node-version: 22
           cache: npm
@@ -42,7 +42,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
       - name: Setup node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        uses: linz/action-setup-node@623b1541d0e2f665d5378ad2e475e3c7335ba944 # v1.0.0
         with:
           node-version: 22
           cache: npm
@@ -64,7 +64,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
       - name: Setup node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        uses: linz/action-setup-node@623b1541d0e2f665d5378ad2e475e3c7335ba944 # v1.0.0
         with:
           node-version: 22
           cache: npm
